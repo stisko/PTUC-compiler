@@ -1,0 +1,30 @@
+
+program useless;
+
+	var i, k: integer;
+
+	procedure add(n: integer; k:integer);
+		var j: integer;
+
+		function cube(i: integer): integer;
+			begin
+				result := i * i * i;
+				return
+			end;
+
+		begin
+			if 1>100 then
+				j:=1;
+			else if 1<100 then
+				j:=2;
+		
+			j := (100 - n) + cube(k);
+			writeInteger(j);
+		end;
+
+begin
+k := readInteger();
+i := readInteger();
+add(k,i);
+end.
+
